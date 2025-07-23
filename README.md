@@ -67,9 +67,20 @@
 
 ---
 
-## 📌 프로젝트 구조
+📌 **프로젝트 구조**
 
-<pre><code>📌 <strong>프로젝트 구조</strong> ibom/ ├── src/ │ └── main/ │ ├── java/ # 백엔드 소스 │ ├── resources/ # 설정 파일 │ └── webapp/ │ ├── resources/ # JS, CSS, 이미지 등 │ └── WEB-INF/ # JSP 및 Spring 설정 ├── pom.xml ├── README.md ├── docs/ │ └── ibom_project_intro.pdf # 프로젝트 소개서 </code></pre>
+ibom/
+├── src/
+│   └── main/
+│       ├── java/              # 백엔드 소스
+│       ├── resources/         # 설정 파일
+│       └── webapp/
+│           ├── resources/     # JS, CSS, 이미지 등
+│           └── WEB-INF/       # JSP 및 Spring 설정
+├── pom.xml
+├── README.md
+├── docs/
+│   └── ibom_project_intro.pdf   # 프로젝트 소개서
 
 ---
 
