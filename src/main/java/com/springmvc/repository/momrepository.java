@@ -1,0 +1,21 @@
+package com.springmvc.repository;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import com.springmvc.domain.mom;
+
+public interface momrepository {
+
+	void create(mom mother, HttpServletRequest request);
+
+	List<mom> readall(String sessionId);
+
+	public void update(mom mother);
+
+	public mom readone(int num);
+
+	public void delete(int num);
+
+}

@@ -1,0 +1,154 @@
+body {
+	background-color: #f4efec;
+	display: flex;
+	height: 100vh;
+	margin: 0;
+}
+
+.sidebar {
+	background-color: #a87e6e;
+	color: white;
+	min-width: 50px;
+	padding: 30px;
+	box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	width: 12%;
+}
+
+.sidebar h4 {
+	margin-bottom: 30px;
+}
+
+.sidebar a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+	background-color: #8c6a56;
+}
+
+.content {
+	flex: 1;
+	padding: 20px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+	margin: auto;
+	min-height: calc(100vh - 40px);
+	box-sizing: border-box;
+	position: relative;
+}
+
+.container h1 {
+	margin-bottom: 30px;
+	color: #333;
+	font-weight: bolder;
+}
+
+.btn-search {
+	background-color: #a87e6e;
+	border-color: #a87e6e;
+	color: white;
+	padding: 10px 30px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.btn-search:hover {
+	background-color: #8c6a56;
+	border-color: #8c6a56;
+	color: white;
+}
+
+.btn-home {
+	background-color: #a87e6e;
+	border-color: #a87e6e;
+	padding: 12px 20px;
+	font-size: 16px;
+	margin-bottom: 12px;
+	color: #ffffff !important;
+	position: absolute;
+	right: 20px; /* 오른쪽 끝으로 위치를 설정 */
+	bottom: 20px; /* 필요한 경우 하단 위치를 조정 */
+}
+
+.btn-home:hover {
+	background-color: #8c6a56;
+	border-color: #8c6a56;
+	color: #ffffff !important;
+}
+
+.table th, .table td {
+	text-align: center;
+	padding: 15px;
+}
+
+.table thead th {
+    background-color: #f5f0eb; 
+    color: black; 
+}
+
+.table tbody tr:hover {
+    background-color: #f1e6e0!important; 
+}
+
+
+.input-group {
+	display: flex;
+}
+
+.input-group .form-control, .input-group .btn-search {
+	height: 60px;
+	padding: 0.375rem 0.75rem;
+}
+
+.input-group .btn-search {
+	height: 60px;
+	line-height: 1.5;
+	padding: 0.375rem 2.0rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* 필요에 따라 조정 */
+}
+
+.pagination .page-link {
+    color: #a87e6e; 
+    border-color: #a87e6e; 
+}
+
+
+.pagination .page-link:hover {
+    background-color: #a87e6e; 
+    color: white; 
+}
+
+
+.pagination .page-item.active .page-link {
+    background-color: #a87e6e; 
+    color: white; 
+    border-color: #a87e6e; 
+}
+
+
+.pagination .page-item.disabled .page-link {
+    color: #a87e6e; 
+    background-color: transparent; 
+    border-color: #a87e6e; 
+}
+

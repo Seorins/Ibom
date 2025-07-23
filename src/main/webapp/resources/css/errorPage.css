@@ -1,0 +1,75 @@
+* {
+	font-family: "Noto Sans KR", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	background-color: #f4efec;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+.container {
+	margin-top: 30px;
+	background-color: white;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-align: center;
+	width: 1000px;
+	height: 600px;
+	padding: 0px !important;
+}
+
+h2 {
+	color: #a87e6e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px; /* 아이콘과 텍스트 사이의 간격 */
+}
+
+h2 .bi-x-circle {
+	font-size: 50px; /* 아이콘 크기 조절 */
+	color: #a87e6e; /* 텍스트와 비슷한 색상 */
+}
+
+p {
+	font-size: 18px;
+	color: #666;
+}
+
+.btn-home {
+	background-color: #a87e6e;
+	color: white;
+	border-radius: 5px;
+	padding: 20px 80px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.btn-home:hover {
+	background-color: #8c6552;
+}
+
+.title {
+	background-color: #F7E9E4;
+	width: 100%;
+	height: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50%;
+}
