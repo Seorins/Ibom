@@ -67,13 +67,6 @@
 
 ---
 
-<pre><code>📌 프로젝트 구조 
-  ```
-  ibom/ ├── src/ │ └── main/ │ ├── java/ # 백엔드 소스 │ ├── resources/ # 설정 파일 │ └── webapp/ │ ├── resources/ # JS, CSS, 이미지 등 │ └── WEB-INF/ # JSP 및 Spring 설정 ├── pom.xml ├── README.md ├── docs/ │ └── ibom_project_intro.pdf # 프로젝트 소개서 
-  ``` </code></pre>
-
----
-
 ## 📎 참고 데이터 출처
 
 - 질병관리청 예방접종도우미
