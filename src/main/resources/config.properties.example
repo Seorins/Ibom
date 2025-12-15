@@ -1,0 +1,9 @@
+# API Keys Configuration
+# Copy this file to config.properties and fill in your actual keys
+kakao.api.key=YOUR_KAKAO_API_KEY_HERE
+
+# Database Configuration
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/ibom?serverTimezone=UTC
+db.username=YOUR_DB_USERNAME
+db.password=YOUR_DB_PASSWORD

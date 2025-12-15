@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.json.XML;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -55,6 +56,9 @@ public class HospitalController {
 
 	@Autowired
 	HospitalService service;
+
+	@Value("${kakao.api.key}")
+	private String kakaoApiKey;
 
 	@GetMapping("/api")
 	public String getApi(Model model) throws Exception {
@@ -224,6 +228,7 @@ public class HospitalController {
 
 		List<hospital> allhospital = service.getAllHospitals();
 		model.addAttribute("allhospital", allhospital);
+		model.addAttribute("kakaoApiKey", kakaoApiKey);
 		return "apimap";
 
 	}
